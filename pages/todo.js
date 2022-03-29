@@ -99,7 +99,7 @@ const Todo = ({ avatar_url, login }) => {
 const getTasks = async () => {
     const res = await fetch('http://localhost:8000/')
     const json = await res.json()
-    console.log(json)
+    
     return json;
 }
 
